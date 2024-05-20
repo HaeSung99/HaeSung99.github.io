@@ -13,7 +13,7 @@ function addRange() {
     const newRangeDiv = document.createElement('div');
     newRangeDiv.className = 'range';
     newRangeDiv.innerHTML = `
-        <label for="subject${rangeCount}">종목:</label>
+        <label for="subject${rangeCount}">선택:</label>
         <input type="text" id="subject${rangeCount}" name="subject${rangeCount}">
         <label for="a${rangeCount}">최소값:</label>
         <input type="number" id="a${rangeCount}" name="a${rangeCount}">
